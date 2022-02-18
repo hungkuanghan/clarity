@@ -26,11 +26,24 @@
       ],
       "js": [
         "content.js"
+      ],
+      "css": [
+        "lightbox.css"
       ]
     }
   ],
+  "commands": {
+    "switch-recording" : {
+      "suggested_key": {
+           "mac": "Command+J"
+
+      },
+      "description": "Turn on/off the recording"
+    }
+  },
   "web_accessible_resources": [
-    "clarity.js"
+    "clarity.js",
+    "menu.html"
   ],
   "background": {
     "scripts": [
